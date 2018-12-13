@@ -8,8 +8,17 @@ This tool assumes you have the Selenium/Python3 enviroment installed already.
 #Tutorial
 
 1.  Download ./chromedriver.sh to disered path of tool.
+	Copy & Paste this in your terminal to download the latest chromedriver, this will download the lastest release and automatically extract zip.
+		
+		LATEST_VERSION=$(curl -s 
+		https://chromedriver.storage.googleapis.com/LATEST_RELEASE) && 
+		wget -O /tmp/chromedriver.zip 
+		https://chromedriver.storage.googleapis.com/$LATEST_VERSION/chromedriver_linux64.zip
+ 		&& sudo unzip /tmp/chromedriver.zip chromedriver -d 
+		/usr/local/bin/;
 
 1.  Download the User-Agents.txt file into this tools directory.
+	
 2.  Place path to "User-Agents.txt in this field. 
 		f_name = open('User-Agents.txt', 'r')
 
