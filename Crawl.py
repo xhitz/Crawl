@@ -39,13 +39,13 @@ while True:
             import os
             os.system('clear')
             ran = random.randint(500,5000)
-            f_name = open('./agents.txt', 'r')
+            f_name = open('./User-Agents.txt', 'r')
             feed = selection(f_name)
             driver.add_argument(feed)
-            web.get("http://xgames.espn.com/xgames/real/23592788/martinez-23592917")
-            assert "Real BMX 2018" in web.title
+            web.get("http://www.websitehere.com")
+            assert "Web Title" in web.title
             print("{}".format(web.title))
-            element = web.find_element_by_xpath('')
+            element = web.find_element_by_xpath('Insert xpath Here')
             print('{}'.format(element))
             element.click()
             #element = web.find_element_by_xpath('Insert xpath here')----------------To Add More Elements
