@@ -35,7 +35,8 @@ This tool assumes you have the Selenium/Python3 enviroment installed already.
 
 #How To Use
 
-Just run the script with python3 .chromedriver.sh ./Crawl.py
+Just run the script with: 
+	>python3 ./chromedriver.sh ./Crawl.py
 
 
 #Thats It. =] 
