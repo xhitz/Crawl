@@ -20,16 +20,16 @@ This tool assumes you have the Selenium/Python3 enviroment installed already.
 1.  Download the User-Agents.txt file into this tools directory.
 	
 2.  Place path to "User-Agents.txt in this field. 
-		> f_name = open('User-Agents.txt', 'r')
+	> f_name = open('User-Agents.txt', 'r')
 
 3.  Place target website in between the " ". 
-		> web.get("http://www.websitehere.com")		
+	> web.get("http://www.websitehere.com")		
 
 4.  Place website title in between the " ".
-		> assert "Web Title" in web.title
+	> assert "Web Title" in web.title
 
 5.  Place the 'Xpath' to be clicked on/used between the ' '. 
-		> element = web.find_element_by_xpath('')
+	> element = web.find_element_by_xpath('')
 
 
 
